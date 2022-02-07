@@ -1,0 +1,16 @@
+{
+  "name": "json-server-app",
+  "version": "1.0.0",
+  "description": "https://github.com/koushik0004/json-server-tutorials",
+  "main": "index.js",
+  "scripts": {
+    "mock:server": "json-server --watch db.json --route routes.json --port 6565",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
